@@ -12,7 +12,7 @@ const PHOTOS = [
     alt: 'Beautifully completed home exterior renovation by Denes Construction in Stafford VA',
   },
   {
-    src: 'https://images.unsplash.com/photo-1552321554-5fefcaf1d6ce?w=800&auto=format&fit=crop&q=80',
+    src: 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&auto=format&fit=crop&q=80',
     alt: 'Luxury bathroom remodel with custom tile and fixtures in Montross VA',
   },
   {

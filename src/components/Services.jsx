@@ -34,7 +34,7 @@ const SERVICES = [
     description:
       'Upgrade your bathroom with modern fixtures, custom tile work, and expert craftsmanship. Denes Construction serves Stafford VA, Montross VA, and Fredericksburg VA homeowners.',
     image:
-      'https://images.unsplash.com/photo-1552321554-5fefcaf1d6ce?w=600&auto=format&fit=crop&q=80',
+      'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=600&auto=format&fit=crop&q=80',
     alt: 'Bathroom renovation with modern fixtures completed by Denes Construction in Montross VA',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6" aria-hidden="true">
