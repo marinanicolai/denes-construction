@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" role="img" aria-label="Denes Construction logo">
+  <title>Denes Construction</title>
+  <!-- House/roofline icon -->
+  <g transform="translate(4, 8)">
+    <!-- Roof peak -->
+    <polygon points="32,4 60,26 4,26" fill="#1a2238"/>
+    <!-- Chimney -->
+    <rect x="46" y="8" width="7" height="14" fill="#1a2238"/>
+    <!-- House body -->
+    <rect x="8" y="26" width="48" height="34" fill="#1a2238"/>
+    <!-- Door -->
+    <rect x="24" y="40" width="16" height="20" rx="8" fill="#ea6c0a"/>
+    <!-- Window left -->
+    <rect x="11" y="31" width="11" height="10" rx="1" fill="#ea6c0a" opacity="0.85"/>
+    <!-- Window right -->
+    <rect x="42" y="31" width="11" height="10" rx="1" fill="#ea6c0a" opacity="0.85"/>
+    <!-- Roofline accent bar -->
+    <rect x="0" y="24" width="64" height="4" rx="1" fill="#ea6c0a"/>
+  </g>
+
+  <!-- Wordmark: DENES -->
+  <text
+    x="80" y="38"
+    font-family="Montserrat, system-ui, sans-serif"
+    font-size="28"
+    font-weight="800"
+    letter-spacing="1"
+    fill="#1a2238"
+  >DENES</text>
+
+  <!-- Wordmark: CONSTRUCTION -->
+  <text
+    x="80" y="60"
+    font-family="Montserrat, system-ui, sans-serif"
+    font-size="14"
+    font-weight="600"
+    letter-spacing="3"
+    fill="#ea6c0a"
+  >CONSTRUCTION</text>
+
+  <!-- Divider line between icon and text -->
+  <rect x="74" y="10" width="2" height="58" rx="1" fill="#1a2238" opacity="0.15"/>
+</svg>
