@@ -56,8 +56,7 @@ export default function ServiceArea() {
 
         {/* Header */}
         <div className="text-center mb-16">
-          <span className="text-orange-400 font-semibold text-sm uppercase tracking-widest">Where We Work</span>
-          <h2 id="area-heading" className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mt-2 leading-tight">
+          <h2 id="area-heading" className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white leading-tight">
             Proudly Serving Three Communities
           </h2>
           <p className="text-gray-300 mt-4 max-w-2xl mx-auto text-lg">
@@ -95,17 +94,6 @@ export default function ServiceArea() {
                 ))}
               </div>
 
-              {/* Service tags */}
-              <div className="mt-6 flex flex-wrap gap-2">
-                {area.services.map((svc) => (
-                  <span
-                    key={svc}
-                    className="text-xs font-medium bg-orange-600 bg-opacity-20 text-orange-300 border border-orange-500 border-opacity-30 px-3 py-1 rounded-full"
-                  >
-                    {svc}
-                  </span>
-                ))}
-              </div>
             </article>
           ))}
         </div>

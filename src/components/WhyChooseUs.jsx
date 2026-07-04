@@ -73,8 +73,7 @@ export default function WhyChooseUs() {
 
           {/* Left — Story */}
           <div>
-            <span className="text-orange-600 font-semibold text-sm uppercase tracking-widest">About Us</span>
-            <h2 id="about-heading" className="section-heading mt-2 mb-6">
+            <h2 id="about-heading" className="section-heading mb-6">
               Why Homeowners in Montross, Stafford &amp; Fredericksburg VA Choose Denes Construction
             </h2>
 

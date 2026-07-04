@@ -21,11 +21,6 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 sm:px-6 max-w-5xl mx-auto pt-20">
-        {/* Badge */}
-        <span className="inline-block bg-orange-600 text-white text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-6">
-          Serving Montross · Stafford · Fredericksburg VA
-        </span>
-
         <h1 className="font-heading font-black text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-tight mb-6">
           Built Right.{' '}
           <span className="text-orange-400">Built to Last.</span>

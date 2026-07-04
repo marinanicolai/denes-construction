@@ -41,8 +41,7 @@ export default function Testimonials() {
 
         {/* Header */}
         <div className="text-center mb-14">
-          <span className="text-orange-600 font-semibold text-sm uppercase tracking-widest">Happy Clients</span>
-          <h2 id="testimonials-heading" className="section-heading mt-2">
+          <h2 id="testimonials-heading" className="section-heading">
             What Our Customers Say
           </h2>
           <p className="section-subheading mx-auto text-center">
@@ -69,9 +68,6 @@ export default function Testimonials() {
                   <cite className="not-italic font-heading font-bold text-navy-900 text-sm">{review.name}</cite>
                   <p className="text-gray-400 text-xs mt-0.5">{review.location}</p>
                 </div>
-                <span className="text-xs font-medium bg-orange-100 text-orange-700 px-3 py-1 rounded-full">
-                  {review.service}
-                </span>
               </footer>
             </blockquote>
           ))}

@@ -112,8 +112,7 @@ export default function Services() {
       <div className="section-container">
         {/* Header */}
         <div className="text-center mb-14">
-          <span className="text-orange-600 font-semibold text-sm uppercase tracking-widest">What We Do</span>
-          <h2 id="services-heading" className="section-heading mt-2">
+          <h2 id="services-heading" className="section-heading">
             Our Construction Services
           </h2>
           <p className="section-subheading mx-auto text-center">

@@ -1,5 +1,20 @@
 import { useState, useEffect } from 'react'
-import logoUrl from '../assets/logo.svg'
+
+function LogoMark({ className = '' }) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 110" className={className} role="img" aria-label="Denes Construction logo">
+      <title>Denes Construction</title>
+      <polygon points="55,57 98,14 141,57 141,73 55,73" fill="#1a2238"/>
+      <rect x="78" y="10" width="9" height="24" fill="#1a2238"/>
+      <polygon points="109,57 157,3 205,57 205,73 109,73" fill="#1a2238"/>
+      <rect x="149" y="60" width="16" height="11" fill="white"/>
+      <line x1="149" y1="65.5" x2="165" y2="65.5" stroke="#1a2238" strokeWidth="1.5"/>
+      <line x1="157" y1="60" x2="157" y2="71" stroke="#1a2238" strokeWidth="1.5"/>
+      <text x="130" y="96" fontFamily="'Playfair Display', Georgia, serif" fontSize="30" fontWeight="700" fill="#1a2238" textAnchor="middle" letterSpacing="3">DENES</text>
+      <text x="130" y="109" fontFamily="Arial, Helvetica, sans-serif" fontSize="9.5" fontWeight="400" fill="#64748b" textAnchor="middle" letterSpacing="4">CONSTRUCTION</text>
+    </svg>
+  )
+}
 
 const NAV_LINKS = [
   { label: 'Home', href: '#home' },
@@ -47,13 +62,7 @@ export default function Header() {
             className="flex-shrink-0"
             onClick={closeMenu}
           >
-            <img
-              src={logoUrl}
-              alt="Denes Construction logo"
-              className="h-12 w-auto"
-              width="192"
-              height="48"
-            />
+            <LogoMark className="h-12 w-auto" />
           </a>
 
           {/* Desktop nav */}

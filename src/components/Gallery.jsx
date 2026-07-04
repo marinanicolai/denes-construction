@@ -40,8 +40,7 @@ export default function Gallery() {
 
         {/* Header */}
         <div className="text-center mb-14">
-          <span className="text-orange-600 font-semibold text-sm uppercase tracking-widest">Our Work</span>
-          <h2 id="gallery-heading" className="section-heading mt-2">
+          <h2 id="gallery-heading" className="section-heading">
             Project Gallery
           </h2>
           <p className="section-subheading mx-auto text-center">

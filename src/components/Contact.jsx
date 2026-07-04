@@ -58,8 +58,7 @@ export default function Contact() {
 
         {/* Header */}
         <div className="text-center mb-14">
-          <span className="text-orange-400 font-semibold text-sm uppercase tracking-widest">Get in Touch</span>
-          <h2 id="contact-heading" className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mt-2 leading-tight">
+          <h2 id="contact-heading" className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white leading-tight">
             Request a Free Estimate
           </h2>
           <p className="text-gray-300 mt-4 max-w-xl mx-auto">
