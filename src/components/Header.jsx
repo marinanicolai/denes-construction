@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import logoUrl from '../assets/logo.svg'
 
 const NAV_LINKS = [
   { label: 'Home', href: '#home' },
@@ -47,7 +48,7 @@ export default function Header() {
             onClick={closeMenu}
           >
             <img
-              src={`${import.meta.env.BASE_URL}logo.svg`}
+              src={logoUrl}
               alt="Denes Construction logo"
               className="h-12 w-auto"
               width="192"
